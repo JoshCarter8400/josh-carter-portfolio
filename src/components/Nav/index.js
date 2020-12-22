@@ -33,7 +33,7 @@ function Nav() {
               target="blank"
               className="github"
             >
-              <img scr={github} alt="" className="bx bxl-github" />
+              <i className="bx bxl-github" alt=""></i>
             </a>
             <a
               href="https://www.linkedin.com/in/joshcarter4813"
