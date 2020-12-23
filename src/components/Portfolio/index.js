@@ -1,4 +1,13 @@
 import React from "react";
+import killTheKeg from "./img/kill-the-keg.png";
+import blogSite from "./img/blog-site-mvc.jpg";
+import weatherDashboard from "./img/5-day.jpg";
+import movieNight from "./img/family-movie.jpg";
+import employeeTracker from "./img/employee-tracking.jpg";
+import codeQuiz from "./img/code-quiz.jpg";
+import workDay from "./img/work-day.jpg";
+import teamProfile from "./img/team-profile.jpg";
+import passwordGenerator from "./img/password.jpg";
 
 function Portfolio() {
   return (
@@ -18,7 +27,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Kill The Keg</h3>
-                <img src="" className="img-fluid" alt="" />
+                <img src={killTheKeg} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://obscure-eyrie-90813.herokuapp.com/"
@@ -42,11 +51,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Public Blog Site</h3>
-                <img
-                  src="./assets/img/img/portfolio/blog-site-mvc.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={blogSite} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://rocky-cove-83154.herokuapp.com/"
@@ -70,11 +75,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Weather Dashboard</h3>
-                <img
-                  src="./assets/img/img/portfolio/5-day.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={weatherDashboard} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://joshcarter8400.github.io/Weather-Dashboard/"
@@ -98,11 +99,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Quarantine Movie Nights</h3>
-                <img
-                  src="./assets/img/img/portfolio/movie-nights.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={movieNight} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://joshcarter8400.github.io/quarantine-movie-nights/"
@@ -126,11 +123,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Employee Tracker</h3>
-                <img
-                  src="./assets/img/img/portfolio/employee-tracking.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={employeeTracker} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://drive.google.com/file/d/1UGaoigaSNjBwoRfkr0olVUatX_lssFCB/view"
@@ -154,11 +147,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Coding Quiz!</h3>
-                <img
-                  src="./assets/img/img/portfolio/code-quiz.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={codeQuiz} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://joshcarter8400.github.io/Code-Quiz/"
@@ -181,11 +170,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Work Day Scheduler</h3>
-                <img
-                  src="./assets/img/img/portfolio/work-day.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={workDay} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://joshcarter8400.github.io/Work-Day-Scheduler/"
@@ -209,11 +194,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Team Profile Generator</h3>
-                <img
-                  src="./assets/img/img/portfolio/team-profile.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={teamProfile} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://drive.google.com/file/d/1Kayd8H1IqGEkQdXyNWh512L_gGRUykLB/view"
@@ -237,11 +218,7 @@ function Portfolio() {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <h3 className="about content h3">Password Generator</h3>
-                <img
-                  src="./assets/img/img/portfolio/password.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
+                <img src={passwordGenerator} className="img-fluid" alt="" />
                 <div className="portfolio-links">
                   <a
                     href="https://joshcarter8400.github.io/Password-Generator/"
