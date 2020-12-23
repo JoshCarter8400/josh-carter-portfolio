@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/josh-carter-portfolio/static/css/main.4ee617c6.chunk.css",
+    "main.js": "/josh-carter-portfolio/static/js/main.bd8e7140.chunk.js",
+    "main.js.map": "/josh-carter-portfolio/static/js/main.bd8e7140.chunk.js.map",
+    "runtime-main.js": "/josh-carter-portfolio/static/js/runtime-main.df152d54.js",
+    "runtime-main.js.map": "/josh-carter-portfolio/static/js/runtime-main.df152d54.js.map",
+    "static/js/2.63403980.chunk.js": "/josh-carter-portfolio/static/js/2.63403980.chunk.js",
+    "static/js/2.63403980.chunk.js.map": "/josh-carter-portfolio/static/js/2.63403980.chunk.js.map",
+    "static/js/3.5d7084d8.chunk.js": "/josh-carter-portfolio/static/js/3.5d7084d8.chunk.js",
+    "static/js/3.5d7084d8.chunk.js.map": "/josh-carter-portfolio/static/js/3.5d7084d8.chunk.js.map",
+    "index.html": "/josh-carter-portfolio/index.html",
+    "static/css/main.4ee617c6.chunk.css.map": "/josh-carter-portfolio/static/css/main.4ee617c6.chunk.css.map",
+    "static/js/2.63403980.chunk.js.LICENSE.txt": "/josh-carter-portfolio/static/js/2.63403980.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/josh-carter-portfolio/static/media/correct-profile.4f113aa3.jpg",
+    "static/media/icofont.min.css": "/josh-carter-portfolio/static/media/icofont.dad3accb.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df152d54.js",
+    "static/js/2.63403980.chunk.js",
+    "static/css/main.4ee617c6.chunk.css",
+    "static/js/main.bd8e7140.chunk.js"
+  ]
+}
