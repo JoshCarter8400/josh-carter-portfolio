@@ -1,20 +1,19 @@
 import React from "react";
 import profilePic from "../../assets/img/correct-profile.jpg";
-import github from "../../assets/img/github-icon.png";
 
 function Nav() {
-  const categories = [
-    {
-      name: "About",
-      description: "Short description of myself",
-    },
-    { name: "Portfolio", description: "Collection of my projects" },
-    { name: "Contact", description: "How to Contact me" },
-    {
-      name: "Resume",
-      description: "List of qualifications",
-    },
-  ];
+  // const categories = [
+  //   {
+  //     name: "About",
+  //     description: "Short description of myself",
+  //   },
+  //   { name: "Portfolio", description: "Collection of my projects" },
+  //   { name: "Contact", description: "How to Contact me" },
+  //   {
+  //     name: "Resume",
+  //     description: "List of qualifications",
+  //   },
+  // ];
 
   // function categorySelected(name) {
   //   console.log(`${name} clicked`);
@@ -47,11 +46,6 @@ function Nav() {
 
         <nav className="nav-menu">
           <ul>
-            <li className="active">
-              <a href="index.html">
-                <i className="bx bx-home"></i> <span>Home</span>
-              </a>
-            </li>
             <li>
               <a href="#about">
                 <i className="bx bx-user"></i> <span>About</span>
@@ -70,8 +64,12 @@ function Nav() {
                 <i className="bx bx-book-content"></i> Portfolio
               </a>
             </li>
-            {/* <!-- <li><a href="#services"><i class="bx bx-server"></i> Services</a></li> -->
-          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li> --> */}
+
+            <li>
+              <a href="#contact">
+                <i class="bx bx-envelope"></i> Contact
+              </a>
+            </li>
           </ul>
         </nav>
         <button type="button" className="mobile-nav-toggle d-xl-none">

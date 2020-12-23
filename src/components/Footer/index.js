@@ -11,7 +11,7 @@ function Footer() {
           </strong>
         </div>
       </div>
-      <a href="#" className="back-to-top">
+      <a href="#about" className="back-to-top">
         <i className="icofont-simple-up"></i>
       </a>
     </footer>
