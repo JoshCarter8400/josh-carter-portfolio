@@ -1,6 +1,13 @@
 import React from "react";
 import profilePic from "../../assets/img/correct-profile.jpg";
 
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineFile } from "react-icons/ai";
+import { BiSmile } from "react-icons/bi";
+import { FaRegFolderOpen } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
+
 function Nav(props) {
   // const categories = [
   //   {
@@ -32,14 +39,18 @@ function Nav(props) {
               target="blank"
               className="github"
             >
-              <i className="bx bxl-github" alt=""></i>
+              <i className="bx bxl-github" alt="">
+                <AiFillGithub />
+              </i>
             </a>
             <a
               href="https://www.linkedin.com/in/joshcarter4813"
               target="blank"
               className="linkedin"
             >
-              <i className="bx bxl-linkedin"></i>
+              <i className="bx bxl-linkedin">
+                <AiFillLinkedin />
+              </i>
             </a>
           </div>
         </div>
@@ -48,7 +59,10 @@ function Nav(props) {
           <ul>
             <li>
               <a href="#about">
-                <i className="bx bx-user"></i> <span>About</span>
+                <i className="bx bx-user">
+                  <BiSmile />
+                </i>{" "}
+                <span>About</span>
               </a>
             </li>
 
@@ -57,19 +71,28 @@ function Nav(props) {
                 href="https://docs.google.com/document/d/1Zdfno3WPaAxMlCr3YHMfI6Ujbsb5wWgV2dehVFzh2hI/edit?usp=sharing"
                 target="blank"
               >
-                <i className="bx bx-file-blank"></i> <span>Resume</span>
+                <i className="bx bx-file-blank">
+                  <AiOutlineFile />
+                </i>{" "}
+                <span>Resume</span>
               </a>
             </li>
 
             <li>
               <a href="#portfolio">
-                <i className="bx bx-book-content"></i> Portfolio
+                <i className="bx bx-book-content">
+                  <FaRegFolderOpen />
+                </i>{" "}
+                Portfolio
               </a>
             </li>
 
             <li>
               <a href="#contact">
-                <i class="bx bx-envelope"></i> Contact
+                <i class="bx bx-envelope">
+                  <IoMdContact />
+                </i>{" "}
+                Contact
               </a>
             </li>
           </ul>

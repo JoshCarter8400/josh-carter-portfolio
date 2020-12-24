@@ -8,6 +8,8 @@ import codeQuiz from "./img/code-quiz.jpg";
 import workDay from "./img/work-day.jpg";
 import teamProfile from "./img/team-profile.jpg";
 import passwordGenerator from "./img/password.jpg";
+import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineEye } from "react-icons/ai";
 
 function Portfolio() {
   return (
@@ -35,14 +37,20 @@ function Portfolio() {
                     target="blank"
                     title="App 2"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/kill-the-keg"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -59,14 +67,20 @@ function Portfolio() {
                     target="blank"
                     title="App 2"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/tech-blog"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -83,14 +97,20 @@ function Portfolio() {
                     title="Weather Dashboard"
                     target="blank"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/Weather-Dashboard"
                     target="blank"
                     title="Github"
                   >
-                    <i className="bx bxl-github"></i>GitHub
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -107,14 +127,20 @@ function Portfolio() {
                     title="Quarantine Movie Nights"
                     target="blank"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/quarantine-movie-nights"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -131,14 +157,20 @@ function Portfolio() {
                     title="App 3"
                     target="blank"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/employee-tracker"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -154,14 +186,20 @@ function Portfolio() {
                     data-gall="portfolioGallery"
                     title="Card 2"
                   >
-                    <i className="bx bx-plus" target="blank"></i>Demo
+                    <i className="bx bx-plus" target="blank">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/Code-Quiz"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -178,14 +216,20 @@ function Portfolio() {
                     title="Web 2"
                     target="blank"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/Work-Day-Scheduler"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -202,14 +246,20 @@ function Portfolio() {
                     target="blank"
                     title="Card 1"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/team-profile-generator"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
@@ -226,14 +276,20 @@ function Portfolio() {
                     title="App 2"
                     target="blank"
                   >
-                    <i className="bx bx-plus"></i>Demo
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/Password-Generator"
                     target="blank"
                     title="More Details"
                   >
-                    <i className="bx bxl-github"></i>Github
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
                   </a>
                 </div>
               </div>
