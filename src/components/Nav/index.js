@@ -1,18 +1,18 @@
 import React from "react";
 import profilePic from "../../assets/img/correct-profile.jpg";
 
-function Nav() {
+function Nav(props) {
   // const categories = [
   //   {
   //     name: "About",
   //     description: "Short description of myself",
   //   },
   //   { name: "Portfolio", description: "Collection of my projects" },
-  //   { name: "Contact", description: "How to Contact me" },
   //   {
   //     name: "Resume",
   //     description: "List of qualifications",
   //   },
+  //   { name: "Contact", description: "How to Contact me" },
   // ];
 
   // function categorySelected(name) {
@@ -51,6 +51,7 @@ function Nav() {
                 <i className="bx bx-user"></i> <span>About</span>
               </a>
             </li>
+
             <li>
               <a
                 href="https://docs.google.com/document/d/1Zdfno3WPaAxMlCr3YHMfI6Ujbsb5wWgV2dehVFzh2hI/edit?usp=sharing"
@@ -59,6 +60,7 @@ function Nav() {
                 <i className="bx bx-file-blank"></i> <span>Resume</span>
               </a>
             </li>
+
             <li>
               <a href="#portfolio">
                 <i className="bx bx-book-content"></i> Portfolio

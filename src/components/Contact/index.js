@@ -45,7 +45,7 @@ function Contact() {
             <h2>Contact</h2>
             <p>
               Please feel free to contact me with any questions that you may
-              have I am here to be helpful any way I can. Look forward to
+              have I am here to be helpful any way I can. I Look forward to
               working with you!
             </p>
           </div>
@@ -86,7 +86,7 @@ function Contact() {
                       type="text"
                       name="name"
                       defaultValue={name}
-                      onChange={handleChange}
+                      onBlur={handleChange}
                       className="form-control"
                       id="name"
                     />
@@ -98,7 +98,7 @@ function Contact() {
                       type="email"
                       name="email"
                       defaultValue={email}
-                      onChange={handleChange}
+                      onBlur={handleChange}
                       className="form-control"
                       id="email"
                     />
@@ -111,7 +111,7 @@ function Contact() {
                     type="text"
                     name="subject"
                     defaultValue={subject}
-                    onChange={handleChange}
+                    onBlur={handleChange}
                     className="form-control"
                     id="subject"
                   />
@@ -123,18 +123,15 @@ function Contact() {
                     className="form-control"
                     name="message"
                     defaultValue={message}
-                    onChange={handleChange}
+                    onBlur={handleChange}
                     rows="10"
                   ></textarea>
-                  <div className="validate"></div>
                 </div>
-                <div className="mb-3">
-                  <div className="loading">Loading</div>
-                  <div className="error-message"></div>
-                  <div className="sent-message">
-                    Your message has been sent. Thank you!
+                {errorMessage && (
+                  <div>
+                    <p className="error-text">{errorMessage}</p>
                   </div>
-                </div>
+                )}
                 <div className="text-center">
                   <button type="submit">Send Message</button>
                 </div>

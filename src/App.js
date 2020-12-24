@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -8,15 +8,17 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  const [itemSelected, setItemSelected] = useState(false);
   return (
     <div>
-      <Nav />
-
-      <About />
-      <Portfolio />
-      <Resume />
-      <Contact />
+      <Nav itemSelected={itemSelected} setItemSelected={setItemSelected}></Nav>
       <Footer />
+      <main>
+        <About />
+        <Portfolio />
+        <Resume />
+        <Contact />
+      </main>
     </div>
   );
 }

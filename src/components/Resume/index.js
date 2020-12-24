@@ -6,8 +6,18 @@ function Resume() {
       <section id="about" className="about">
         <div className="container">
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <div className=" about content">
-              <h3>Skills</h3>
+            <div className="section-title about content">
+              <h2>Skills</h2>
+              <button className="about content resume-btn">
+                <a
+                  href="https://docs.google.com/document/d/1Zdfno3WPaAxMlCr3YHMfI6Ujbsb5wWgV2dehVFzh2hI/edit?usp=sharing"
+                  target="blank"
+                >
+                  <span className="resume-btn">
+                    Click here to View my Resume
+                  </span>
+                </a>
+              </button>
             </div>
             <div className="row">
               <div className="col-lg-6">
