@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [contactState, setContactState] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const { name, email, subject, message } = contactState;
+
+  function handleChange(e) {
+    setContactState({ ...contactState, [e.target.name]: e.target.value });
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(contactState);
+  }
+
   return (
     <main id="main">
       <section id="contact" className="contact">
@@ -42,17 +59,17 @@ function Contact() {
             </div>
 
             <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form className="php-email-form">
+              <form className="php-email-form" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="form-group col-md-6">
                     <label for="name">Your Name</label>
                     <input
                       type="text"
                       name="name"
+                      defaultValue={name}
+                      onChange={handleChange}
                       className="form-control"
                       id="name"
-                      data-rule="minlen:4"
-                      data-msg="Please enter at least 4 chars"
                     />
                     <div className="validate"></div>
                   </div>
@@ -60,11 +77,11 @@ function Contact() {
                     <label for="name">Your Email</label>
                     <input
                       type="email"
-                      className="form-control"
                       name="email"
+                      defaultValue={email}
+                      onChange={handleChange}
+                      className="form-control"
                       id="email"
-                      data-rule="email"
-                      data-msg="Please enter a valid email"
                     />
                     <div className="validate"></div>
                   </div>
@@ -73,11 +90,11 @@ function Contact() {
                   <label for="name">Subject</label>
                   <input
                     type="text"
-                    className="form-control"
                     name="subject"
+                    defaultValue={subject}
+                    onChange={handleChange}
+                    className="form-control"
                     id="subject"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 8 chars of subject"
                   />
                   <div className="validate"></div>
                 </div>
@@ -86,9 +103,9 @@ function Contact() {
                   <textarea
                     className="form-control"
                     name="message"
+                    defaultValue={message}
+                    onChange={handleChange}
                     rows="10"
-                    data-rule="required"
-                    data-msg="Please write something for us"
                   ></textarea>
                   <div className="validate"></div>
                 </div>
