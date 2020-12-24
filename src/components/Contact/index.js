@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
+  const [errorMessage, setErrorMessage] = useState("");
   const [contactState, setContactState] = useState({
     name: "",
     email: "",
@@ -10,7 +12,24 @@ function Contact() {
   const { name, email, subject, message } = contactState;
 
   function handleChange(e) {
-    setContactState({ ...contactState, [e.target.name]: e.target.value });
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      console.log(isValid);
+      // isValid conditional statement
+      if (!isValid) {
+        setErrorMessage("Please enter a valid email");
+      } else {
+        if (!e.target.value.length) {
+          setErrorMessage(`${e.target.name} is required`);
+        } else {
+          setErrorMessage("");
+        }
+      }
+    }
+
+    if (!errorMessage) {
+      setContactState({ ...contactState, [e.target.name]: e.target.value });
+    }
   }
 
   function handleSubmit(e) {

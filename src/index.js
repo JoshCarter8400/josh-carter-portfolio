@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import "./icofont/icofont.min.css";
+import "../src/icofont/icofont.min.css";
+import { validateEmail } from "../src/utils/helpers";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
