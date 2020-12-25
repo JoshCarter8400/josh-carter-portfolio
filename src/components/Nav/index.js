@@ -62,19 +62,16 @@ function Nav(props) {
                 <i className="bx bx-user">
                   <BiSmile />
                 </i>{" "}
-                <span>About</span>
+                About
               </a>
             </li>
 
             <li>
-              <a
-                href="https://docs.google.com/document/d/1Zdfno3WPaAxMlCr3YHMfI6Ujbsb5wWgV2dehVFzh2hI/edit?usp=sharing"
-                target="blank"
-              >
+              <a href="#skills">
                 <i className="bx bx-file-blank">
                   <AiOutlineFile />
                 </i>{" "}
-                <span>Resume</span>
+                Resume
               </a>
             </li>
 
