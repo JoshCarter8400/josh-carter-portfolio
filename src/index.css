@@ -927,7 +927,8 @@ section {
 
 .error-text {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: rgb(240, 18, 18);
+  font-size: 24px;
 }
 
 @-webkit-keyframes animate-loading {

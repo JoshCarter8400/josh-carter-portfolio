@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import profilePic from "../../assets/img/correct-profile.jpg";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -9,22 +9,10 @@ import { FaRegFolderOpen } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 
 function Nav(props) {
-  // const categories = [
-  //   {
-  //     name: "About",
-  //     description: "Short description of myself",
-  //   },
-  //   { name: "Portfolio", description: "Collection of my projects" },
-  //   {
-  //     name: "Resume",
-  //     description: "List of qualifications",
-  //   },
-  //   { name: "Contact", description: "How to Contact me" },
-  // ];
-
-  // function categorySelected(name) {
-  //   console.log(`${name} clicked`);
-  // }
+  const { nav = [], navSelected, setNavSelected } = props;
+  useEffect(() => {
+    document.title = "Josh Carter" + navSelected;
+  }, [navSelected]);
   return (
     <header id="header">
       <div className="d-flex flex-column">

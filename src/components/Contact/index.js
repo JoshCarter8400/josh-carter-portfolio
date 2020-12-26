@@ -20,11 +20,13 @@ function Contact() {
       if (!isValid) {
         setErrorMessage("Please enter a valid email");
       } else {
-        if (!e.target.value.length) {
-          setErrorMessage(`${e.target.name} is required`);
-        } else {
-          setErrorMessage("");
-        }
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required`);
+      } else {
+        setErrorMessage("");
       }
     }
 
@@ -138,7 +140,9 @@ function Contact() {
                 </div>
                 {errorMessage && (
                   <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <p className="error-text">
+                      <strong>{errorMessage}</strong>
+                    </p>
                   </div>
                 )}
                 <div className="text-center">

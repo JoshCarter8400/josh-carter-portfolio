@@ -7,6 +7,7 @@ import employeeTracker from "./img/employee-tracking.jpg";
 import codeQuiz from "./img/code-quiz.jpg";
 import workDay from "./img/work-day.jpg";
 import teamProfile from "./img/team-profile.jpg";
+import socialNetwork from "./img/social-network.jpg";
 import passwordGenerator from "./img/password.jpg";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineEye } from "react-icons/ai";
@@ -44,6 +45,36 @@ function Portfolio() {
                   </a>
                   <a
                     href="https://github.com/JoshCarter8400/kill-the-keg"
+                    target="blank"
+                    title="More Details"
+                  >
+                    <i className="bx bxl-github">
+                      <AiFillGithub />
+                    </i>
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div className="portfolio-wrap">
+                <h3 className="about content h3">Social Network API</h3>
+                <img src={socialNetwork} className="img-fluid" alt="" />
+                <div className="portfolio-links">
+                  <a
+                    href="https://drive.google.com/file/d/1H2R_atiZEcf-uUr-vq3F6lPYtz0X6ZeV/view"
+                    data-gall="portfolioGallery"
+                    target="blank"
+                    title="App 2"
+                  >
+                    <i className="bx bx-plus">
+                      <AiOutlineEye />
+                    </i>
+                    Demo
+                  </a>
+                  <a
+                    href="hhttps://github.com/JoshCarter8400/social-network-api"
                     target="blank"
                     title="More Details"
                   >
