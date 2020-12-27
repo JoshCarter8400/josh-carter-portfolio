@@ -8,20 +8,25 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
+
   const [nav] = useState(["About", "Portfolio", "Resume", "Contact"]);
-  const [navSelected, setNavSelected] = useState(nav[0]);
+
+  const [currentNav, setCurrentNav] = useState(nav[0]);
   return (
     <div>
       <Nav
         nav={nav}
-        setNavSelected={setNavSelected}
-        navSelected={navSelected}
+        currentNav={currentNav}
+        setCurrentNav={setCurrentNav}
+        setContactSelected={setContactSelected}
+        contactSelected={contactSelected}
       ></Nav>
       <Footer />
       <main>
         <About />
-        <Portfolio />
         <Resume />
+        <Portfolio />
         <Contact />
       </main>
     </div>

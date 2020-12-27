@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import profilePic from "../../assets/img/correct-profile.jpg";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -9,10 +9,13 @@ import { FaRegFolderOpen } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 
 function Nav(props) {
-  const { nav = [], navSelected, setNavSelected } = props;
-  useEffect(() => {
-    document.title = "Josh Carter" + navSelected;
-  }, [navSelected]);
+  const {
+    nav = [],
+    setContactSelected,
+    contactSelected,
+    currentNav,
+    setCurrentNav,
+  } = props;
   return (
     <header id="header">
       <div className="d-flex flex-column">
@@ -46,7 +49,7 @@ function Nav(props) {
         <nav className="nav-menu">
           <ul>
             <li>
-              <a href="#about">
+              <a href="#about" onClick={() => setContactSelected(false)}>
                 <i className="bx bx-user">
                   <BiSmile />
                 </i>{" "}
@@ -55,7 +58,7 @@ function Nav(props) {
             </li>
 
             <li>
-              <a href="#skills">
+              <a href="#resume">
                 <i className="bx bx-file-blank">
                   <AiOutlineFile />
                 </i>{" "}
@@ -73,7 +76,7 @@ function Nav(props) {
             </li>
 
             <li>
-              <a href="#contact">
+              <a href="#contact" onClick={() => setContactSelected(true)}>
                 <i class="bx bx-envelope">
                   <IoMdContact />
                 </i>{" "}

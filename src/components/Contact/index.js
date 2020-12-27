@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 import Iframe from "react-iframe";
 
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`);
+        setErrorMessage(`${capitalizeFirstLetter(e.target.name)} is required`);
       } else {
         setErrorMessage("");
       }
