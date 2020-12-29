@@ -170,7 +170,8 @@ h6 {
 
 .nav-menu a:hover i,
 .nav-menu .active > a i,
-.nav-menu li:hover > a i {
+.nav-menu li:hover > a i,
+.navActive {
   color: #149ddd;
 }
 

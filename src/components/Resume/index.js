@@ -1,4 +1,5 @@
 import React from "react";
+import credentials from "./resume.pdf";
 
 function Resume() {
   return (
@@ -9,10 +10,7 @@ function Resume() {
             <div className="section-title about content">
               <h2>Skills</h2>
               <button className="about content resume-btn">
-                <a
-                  href="https://docs.google.com/document/d/1Zdfno3WPaAxMlCr3YHMfI6Ujbsb5wWgV2dehVFzh2hI/edit?usp=sharing"
-                  target="blank"
-                >
+                <a href={credentials} target="blank">
                   <span className="resume-btn">
                     Click here to View my Resume
                   </span>

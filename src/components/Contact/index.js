@@ -86,7 +86,7 @@ function Contact() {
                   position: "absolute",
                 }}
                 allow="fullscreen"
-              ></Iframe> */}
+              /> */}
             </div>
 
             <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">

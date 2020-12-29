@@ -24,10 +24,17 @@ function App() {
       ></Nav>
       <Footer />
       <main>
-        <About />
-        <Resume />
-        <Portfolio />
-        <Contact />
+        {currentNav === "About" ? (
+          <About />
+        ) : currentNav === "Portfolio" ? (
+          <Portfolio />
+        ) : currentNav === "Resume" ? (
+          <Resume />
+        ) : currentNav === "Contact" ? (
+          <Contact />
+        ) : (
+          <About />
+        )}
       </main>
     </div>
   );

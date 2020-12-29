@@ -49,7 +49,11 @@ function Nav(props) {
         <nav className="nav-menu">
           <ul>
             <li>
-              <a href="#about" onClick={() => setContactSelected(false)}>
+              <a
+                className={`mx-1 ${currentNav === "About" ? "navActive" : ""}`}
+                href="#about"
+                onClick={() => setCurrentNav("About")}
+              >
                 <i className="bx bx-user">
                   <BiSmile />
                 </i>{" "}
@@ -58,7 +62,7 @@ function Nav(props) {
             </li>
 
             <li>
-              <a href="#resume">
+              <a href="#resume" onClick={() => setCurrentNav("Resume")}>
                 <i className="bx bx-file-blank">
                   <AiOutlineFile />
                 </i>{" "}
@@ -67,7 +71,7 @@ function Nav(props) {
             </li>
 
             <li>
-              <a href="#portfolio">
+              <a href="#portfolio" onClick={() => setCurrentNav("Portfolio")}>
                 <i className="bx bx-book-content">
                   <FaRegFolderOpen />
                 </i>{" "}
@@ -76,8 +80,8 @@ function Nav(props) {
             </li>
 
             <li>
-              <a href="#contact" onClick={() => setContactSelected(true)}>
-                <i class="bx bx-envelope">
+              <a href="#contact" onClick={() => setCurrentNav("Contact")}>
+                <i className="bx bx-envelope">
                   <IoMdContact />
                 </i>{" "}
                 Contact
