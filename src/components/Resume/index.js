@@ -12,7 +12,7 @@ function Resume() {
               <button className="about content resume-btn">
                 <a href={credentials} target="blank">
                   <span className="resume-btn">
-                    Click here to View my Resume
+                    Click here to Download my Resume
                   </span>
                 </a>
               </button>
