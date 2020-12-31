@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../Portfolio/img/correct-profile.jpg";
-
+import Header from "../../components/Header";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineFile } from "react-icons/ai";

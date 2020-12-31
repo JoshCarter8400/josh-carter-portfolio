@@ -2,7 +2,6 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import profilePic from "../Portfolio/img/correct-profile.jpg";
-import Nav from "../../components/Nav";
 
 function Header(props) {
   return (
@@ -34,7 +33,7 @@ function Header(props) {
             </a>
           </div>
         </div>
-        <Nav />
+
         <button type="button" className="mobile-nav-toggle d-xl-none">
           <i className="icofont-navigation-menu"></i>
         </button>
