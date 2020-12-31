@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/img/correct-profile.jpg";
+import profilePic from "../Portfolio/img/correct-profile.jpg";
 
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
@@ -9,13 +9,7 @@ import { FaRegFolderOpen } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 
 function Nav(props) {
-  const {
-    nav = [],
-    setContactSelected,
-    contactSelected,
-    currentNav,
-    setCurrentNav,
-  } = props;
+  const { nav = [], currentNav, setCurrentNav } = props;
   return (
     <header id="header">
       <div className="d-flex flex-column">
@@ -89,7 +83,11 @@ function Nav(props) {
             </li>
           </ul>
         </nav>
-        <button type="button" className="mobile-nav-toggle d-xl-none">
+        <button
+          type="button"
+          onClick={() => Nav(props.nav)}
+          className="mobile-nav-toggle d-xl-none"
+        >
           <i className="icofont-navigation-menu"></i>
         </button>
       </div>

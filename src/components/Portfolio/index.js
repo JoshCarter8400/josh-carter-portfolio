@@ -35,7 +35,8 @@ function Portfolio() {
         "This is a project where I built the APIs on the backend for a social network web application. It allows users to share their thoughts, are able to react to friend's thoughts, and create a friends list.",
       tools: "MongoDB/Mongoose/Express/Node",
       github: "https://github.com/JoshCarter8400/social-network-api",
-      demo: "https://rocky-cove-83154.herokuapp.com/",
+      demo:
+        "https://drive.google.com/file/d/1H2R_atiZEcf-uUr-vq3F6lPYtz0X6ZeV/view",
       icon1: <AiOutlineEye />,
       icon2: <AiFillGithub />,
     },
@@ -132,8 +133,8 @@ function Portfolio() {
       description:
         "This is a command line application that allows an officer manager to build his team through a series of prompts. They can select another manager, an engineer, and an intern. Their answers are then used to generate an HTML file that displays in the browser. The manager is the able to send the employees an email and to click their github username to view their profile.",
       tools: "JavaScript",
-      github: "https://joshcarter8400.github.io/Password-Generator/",
-      demo: "https://github.com/JoshCarter8400/Password-Generator",
+      github: "https://github.com/JoshCarter8400/Password-Generator",
+      demo: "https://joshcarter8400.github.io/Password-Generator/",
       icon1: <AiOutlineEye />,
       icon2: <AiFillGithub />,
     },

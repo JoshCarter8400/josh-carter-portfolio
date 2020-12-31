@@ -1,9 +1,10 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
-import profilePic from "../../assets/img/correct-profile.jpg";
+import profilePic from "../Portfolio/img/correct-profile.jpg";
+import Nav from "../../components/Nav";
 
-function Header() {
+function Header(props) {
   return (
     <header id="header">
       <div className="d-flex flex-column">
@@ -33,7 +34,7 @@ function Header() {
             </a>
           </div>
         </div>
-
+        <Nav />
         <button type="button" className="mobile-nav-toggle d-xl-none">
           <i className="icofont-navigation-menu"></i>
         </button>

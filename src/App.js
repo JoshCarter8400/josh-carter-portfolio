@@ -9,8 +9,6 @@ import Resume from "./components/Resume";
 import Header from "./components/Header";
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-
   const [nav] = useState(["About", "Portfolio", "Resume", "Contact"]);
 
   const [currentNav, setCurrentNav] = useState(nav[0]);
@@ -21,8 +19,6 @@ function App() {
         nav={nav}
         currentNav={currentNav}
         setCurrentNav={setCurrentNav}
-        setContactSelected={setContactSelected}
-        contactSelected={contactSelected}
       ></Nav>
       <Footer />
       <main>
