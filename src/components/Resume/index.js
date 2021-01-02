@@ -22,6 +22,10 @@ function Resume() {
                 <ul>
                   <li>
                     <i className="icofont-rounded-right"></i>{" "}
+                    <strong>React</strong>
+                  </li>
+                  <li>
+                    <i className="icofont-rounded-right"></i>{" "}
                     <strong>HTML5</strong>
                   </li>
                   <li>

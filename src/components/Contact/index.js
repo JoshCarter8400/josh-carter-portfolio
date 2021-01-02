@@ -66,7 +66,11 @@ function Contact() {
                 <div className="email">
                   <i className="icofont-envelope"></i>
                   <h4>Email:</h4>
-                  <p>joshcarter8400@gmail.com</p>
+                  <p>
+                    <a href="mailto:joshcarter8400@gmail.com">
+                      joshcarter8400@gmail.com
+                    </a>
+                  </p>
                 </div>
 
                 <div className="phone">

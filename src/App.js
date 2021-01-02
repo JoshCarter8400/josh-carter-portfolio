@@ -20,7 +20,7 @@ function App() {
         currentNav={currentNav}
         setCurrentNav={setCurrentNav}
       ></Nav>
-      <Footer />
+
       <main>
         {currentNav === "About" ? (
           <About />
@@ -33,6 +33,7 @@ function App() {
         ) : (
           <About />
         )}
+        <Footer />
       </main>
     </div>
   );

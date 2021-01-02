@@ -85,8 +85,8 @@ function Nav(props) {
         </nav>
         <button
           type="button"
-          onClick={() => Nav(props.nav)}
           className="mobile-nav-toggle d-xl-none"
+          onClick={() => setCurrentNav(nav)}
         >
           <i className="icofont-navigation-menu"></i>
         </button>
