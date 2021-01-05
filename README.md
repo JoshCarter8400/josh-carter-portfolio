@@ -10,3 +10,5 @@ This is my portfolio to showcase my skills and abilities as a Developer as well 
 ## You can view my portfolio by following the link below
 https://josh-carter.net/
 
+<img src="C:\Users\joshc\Desktop\CODE\2U Trilogy\Projects\josh-carter-portfolio\src\components\Portfolio\img\portfolio-screenshot.png">
+
