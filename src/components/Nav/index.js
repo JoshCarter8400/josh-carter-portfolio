@@ -7,9 +7,16 @@ import { AiOutlineFile } from "react-icons/ai";
 import { BiSmile } from "react-icons/bi";
 import { FaRegFolderOpen } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
+import { AiOutlineClose } from "react-icons/ai";
 
 function Nav(props) {
-  const { nav = [], currentNav, setCurrentNav } = props;
+  const {
+    nav = [],
+    currentNav,
+    setCurrentNav,
+    currentMobile,
+    setCurrentMobile,
+  } = props;
   return (
     <header id="header">
       <div className="d-flex flex-column">
@@ -86,9 +93,13 @@ function Nav(props) {
         <button
           type="button"
           className="mobile-nav-toggle d-xl-none"
-          onClick={() => setCurrentNav(nav)}
+          onClick={() => setCurrentMobile(!currentMobile)}
         >
-          <i className="icofont-navigation-menu"></i>
+          <i
+            className={`${
+              currentMobile ? "icofont-close" : "icofont-navigation-menu"
+            }`}
+          ></i>
         </button>
       </div>
     </header>

@@ -10,16 +10,18 @@ import Header from "./components/Header";
 
 function App() {
   const [nav] = useState(["About", "Portfolio", "Resume", "Contact"]);
-
+  const [currentMobile, setCurrentMobile] = useState(false);
   const [currentNav, setCurrentNav] = useState(nav[0]);
   return (
-    <div>
+    <div className={`${currentMobile ? "mobile-nav-active" : ""}`}>
       <Header />
       <Nav
         nav={nav}
         currentNav={currentNav}
+        currentMobile={currentMobile}
         setCurrentNav={setCurrentNav}
-      ></Nav>
+        setCurrentMobile={setCurrentMobile}
+      />
 
       <main>
         {currentNav === "About" ? (
