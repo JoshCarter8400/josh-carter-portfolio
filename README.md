@@ -6,6 +6,7 @@ This is my portfolio to showcase my skills and abilities as a Developer as well 
 * React
 * React-icons
 * Bootstrap
+* CSS
 
 ## You can view my portfolio by following the link below
 https://josh-carter.net/
