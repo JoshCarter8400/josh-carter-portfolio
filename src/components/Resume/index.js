@@ -1,5 +1,5 @@
-import React from "react";
-import credentials from "./resume.pdf";
+import React from 'react';
+import credentials from './Josh-Resume.pdf';
 
 function Resume() {
   return (
@@ -21,43 +21,43 @@ function Resume() {
               <div className="col-lg-6">
                 <ul>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>React</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>HTML5</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>CSS3</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Bootstrap</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>React</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>JavaScript ES6</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>jQuery</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Handlebars</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>RESTful APIs</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Progressive Web Apps</strong>
                   </li>
                 </ul>
@@ -65,35 +65,35 @@ function Resume() {
               <div className="col-lg-6">
                 <ul>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Node</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Express</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Mongoose</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Sequelize</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>MySQL</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Inquirer</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Object-Oriented Programming</strong>
                   </li>
                   <li>
-                    <i className="icofont-rounded-right"></i>{" "}
+                    <i className="icofont-rounded-right"></i>{' '}
                     <strong>Model-View-Controller Paradigm</strong>
                   </li>
                 </ul>
