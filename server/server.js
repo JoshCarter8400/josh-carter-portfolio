@@ -1,5 +1,9 @@
 const express = require('express');
 const path = require('path');
+var nodemailer = require('nodemailer');
+require('dotenv').config();
+
+var cors = require('cors');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -14,6 +18,51 @@ if (process.env.NODE_ENV === 'production') {
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
+
+let transporter = nodemailer.createTransport({
+  // host: 'smtp.mail.me.com', //replace with your email provider
+  service: 'iCloud',
+  port: 587,
+  auth: {
+    user: process.env.USERNAME, //replace with the email address
+    pass: process.env.PASSWORD, //replace with the password
+  },
+});
+
+// verify connection configuration
+transporter.verify(function (error, success) {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Server is ready to take our messages');
+  }
+});
+
+app.post('/send', (req, res) => {
+  console.log(req.body);
+  var name = req.body.name;
+  var email = req.body.email;
+  var subject = req.body.subject;
+  var message = req.body.message;
+  var content = `name: ${name} \n email: ${email} \n subject: ${subject} \n message: ${message} `;
+  var mail = {
+    from: name,
+    to: 'joshuamcarter@icloud.com',
+    subject: subject,
+    text: content,
+  };
+  transporter.sendMail(mail, (err, data) => {
+    if (err) {
+      res.json({
+        status: 'fail',
+      });
+    } else {
+      res.json({
+        status: 'success',
+      });
+    }
+  });
 });
 
 app.listen(PORT, () => {
