@@ -21,8 +21,9 @@ app.get('*', (req, res) => {
 });
 
 let transporter = nodemailer.createTransport({
-  // host: 'smtp.mail.me.com', //replace with your email provider
+  host: 'iCloud', //replace with your email provider
   service: 'iCloud',
+  secure: false,
   port: 587,
   auth: {
     user: process.env.USERNAME, //replace with the email address
