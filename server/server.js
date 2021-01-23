@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 var nodemailer = require('nodemailer');
 require('dotenv').config();
+var smtpTransport = require('nodemailer-smtp-transport');
 
 var cors = require('cors');
 
@@ -21,7 +22,7 @@ app.get('*', (req, res) => {
 });
 
 let transporter = nodemailer.createTransport({
-  host: 'iCloud', //replace with your email provider
+  host: 'smtp.iCloud.com', //replace with your email provider
   service: 'iCloud',
   secure: false,
   port: 587,
