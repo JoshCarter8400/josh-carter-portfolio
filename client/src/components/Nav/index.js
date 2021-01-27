@@ -1,13 +1,10 @@
-import React from "react";
-import profilePic from "../Portfolio/img/correct-profile.jpg";
-import Header from "../../components/Header";
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiOutlineFile } from "react-icons/ai";
-import { BiSmile } from "react-icons/bi";
-import { FaRegFolderOpen } from "react-icons/fa";
-import { IoMdContact } from "react-icons/io";
-import { AiOutlineClose } from "react-icons/ai";
+import React from 'react';
+import profilePic from '../Portfolio/img/correct-profile.jpg';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiOutlineFile } from 'react-icons/ai';
+import { BiSmile } from 'react-icons/bi';
+import { FaRegFolderOpen } from 'react-icons/fa';
 
 function Nav(props) {
   const {
@@ -51,43 +48,43 @@ function Nav(props) {
           <ul>
             <li>
               <a
-                className={`mx-1 ${currentNav === "About" ? "navActive" : ""}`}
+                className={`mx-1 ${currentNav === 'About' ? 'navActive' : ''}`}
                 href="#about"
-                onClick={() => setCurrentNav("About")}
+                onClick={() => setCurrentNav('About')}
               >
                 <i className="bx bx-user">
                   <BiSmile />
-                </i>{" "}
+                </i>{' '}
                 About
               </a>
             </li>
 
             <li>
-              <a href="#resume" onClick={() => setCurrentNav("Resume")}>
+              <a href="#resume" onClick={() => setCurrentNav('Resume')}>
                 <i className="bx bx-file-blank">
                   <AiOutlineFile />
-                </i>{" "}
+                </i>{' '}
                 Resume
               </a>
             </li>
 
             <li>
-              <a href="#portfolio" onClick={() => setCurrentNav("Portfolio")}>
+              <a href="#portfolio" onClick={() => setCurrentNav('Portfolio')}>
                 <i className="bx bx-book-content">
                   <FaRegFolderOpen />
-                </i>{" "}
+                </i>{' '}
                 Portfolio
               </a>
             </li>
 
-            <li>
-              <a href="#contact" onClick={() => setCurrentNav("Contact")}>
+            {/* <li>
+              <a href={credentials} onClick={() => setCurrentNav('Resume')}>
                 <i className="bx bx-envelope">
                   <IoMdContact />
-                </i>{" "}
+                </i>{' '}
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <button
@@ -97,7 +94,7 @@ function Nav(props) {
         >
           <i
             className={`${
-              currentMobile ? "icofont-close" : "icofont-navigation-menu"
+              currentMobile ? 'icofont-close' : 'icofont-navigation-menu'
             }`}
           ></i>
         </button>
