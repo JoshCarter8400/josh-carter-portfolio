@@ -1,5 +1,5 @@
 import React from 'react';
-import credentials from './Josh-Resume.pdf';
+import credentials from './Resume.pdf';
 
 function Resume() {
   return (

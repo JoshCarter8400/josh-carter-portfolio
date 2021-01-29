@@ -50,7 +50,7 @@ function About() {
                       <i className="icofont-rounded-right"></i>{' '}
                       <strong>Email: </strong>
                       <a href="mailto:Joshcarter8400@gmail.com">
-                        Joshcarter8400@gmail.com
+                        joshcarter8400@gmail.com
                       </a>
                     </li>
                     <li>
@@ -81,15 +81,15 @@ function About() {
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>jQuery</strong>
+                      <strong>Jest</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Handlebars</strong>
+                      <strong>TypeScript</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>RESTful APIs</strong>
+                      <strong>Agile Development</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
@@ -109,23 +109,23 @@ function About() {
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Mongoose</strong>
+                      <strong>MongoDB/Mongoose</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Sequelize</strong>
+                      <strong>SQL/Sequelize</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>MySQL</strong>
+                      <strong>GraphQL</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Inquirer</strong>
+                      <strong>Git/Github</strong>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Object-Oriented Programming</strong>
+                      <strong>Heroku</strong>
                     </li>
                   </ul>
                 </div>
