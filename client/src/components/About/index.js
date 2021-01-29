@@ -1,5 +1,6 @@
 import React from 'react';
 import profilePic from '../Portfolio/img/correct-profile.jpg';
+import Skills from '../Skills';
 
 function About() {
   return (
@@ -9,16 +10,16 @@ function About() {
           <div className="section-title">
             <h2>About</h2>
             <p>
-              Full Stack Web Developer and Personal Trainer with a background in
-              sales and customer service. I am skilled on both the front-end and
-              back-end of development but I definitely enjoy the back-end
-              technologies much more. I have strong problem-solving skills and
-              communicate well within a team as I am open-minded to all ideas
-              and solutions. I’m constantly seeking ways to improve myself and
-              thinking of how to be helpful to those around me. You will get a
-              person with an eagerness to learn and willingness to try new
-              things. I will always give you an honest effort to put forth the
-              best quality product possible.
+              Full Stack Web Developer with a background in sales and customer
+              service. I am skilled on both the front-end and back-end of
+              development but I definitely enjoy the back-end technologies much
+              more. I have strong problem-solving skills and communicate well
+              within a team as I am open-minded to all ideas and solutions. I’m
+              constantly seeking ways to improve myself and thinking of how to
+              be helpful to those around me. You will get a person with an
+              eagerness to learn and willingness to try new things. I will
+              always give you an honest effort to put forth the best quality
+              product possible.
             </p>
           </div>
 
@@ -60,76 +61,7 @@ function About() {
                   </ul>
                 </div>
               </div>
-
-              <div className="about content">
-                <h3>Skills</h3>
-              </div>
-              <div className="row">
-                <div className="col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Bootstrap</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>React</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>JavaScript ES6</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Jest</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>TypeScript</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Agile Development</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Progressive Web Apps</strong>
-                    </li>
-                  </ul>
-                </div>
-                <div className="d-flex col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Node</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Express</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>MongoDB/Mongoose</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>SQL/Sequelize</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>GraphQL</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Git/Github</strong>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>{' '}
-                      <strong>Heroku</strong>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <Skills />
             </div>
           </div>
         </div>
