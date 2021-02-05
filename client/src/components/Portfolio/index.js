@@ -9,6 +9,7 @@ import workDay from './img/work-day.jpg';
 import teamProfile from './img/team-profile.jpg';
 import socialNetwork from './img/social-network.jpg';
 import passwordGenerator from './img/password.jpg';
+import webBuffet from './img/web-buffet.jpg';
 import MERN from './img/mern-search.jpg';
 import noteTaker from './img/note-taker.jpg';
 import { AiFillGithub } from 'react-icons/ai';
@@ -17,6 +18,18 @@ import Project from '../../components/Projects';
 
 function Portfolio() {
   const [projects] = useState([
+    {
+      name: 'Web Dev Service',
+      alt: 'web dev store',
+      image: webBuffet,
+      description:
+        'Helping bar owners to quickly deplete kegs from leftover product, while helping avid beer drinkers find less expensive ways to drink with friends.',
+      tools: 'Sequelize/Express/Node/Handlebars',
+      github: 'https://github.com/JoshCarter8400/project-3',
+      demo: 'https://glacial-atoll-63430.herokuapp.com/',
+      icon1: <AiOutlineEye />,
+      icon2: <AiFillGithub />,
+    },
     {
       name: 'MERN Book Search',
       alt: 'book search',
