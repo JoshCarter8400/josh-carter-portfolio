@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../Portfolio/img/correct-profile.jpg';
+import profilePic from '../Portfolio/img/new-pic-2.jpg';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineFile } from 'react-icons/ai';
